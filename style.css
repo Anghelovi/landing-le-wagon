@@ -101,7 +101,7 @@ a:hover {
   justify-content: center;
 }
 
-/* @media (min-width: 300px) {
+@media (min-width: 300px) {
   .tile {
     grid-template-columns: 1fr;
   }
@@ -117,7 +117,7 @@ a:hover {
   .container {
   width: 1164px;
   }
-} */
+}
 :root {
   /* Palette */
   --white-color: #fff;
