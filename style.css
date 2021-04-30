@@ -1,0 +1,129 @@
+/* My Website Stylesheet */
+@import url"";
+
+body {
+  font-family: 'Space Grotesk', sans-serif;
+  margin: 0;
+}
+
+a {
+  background-color: var(--gray-dark-color);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 24px;
+}
+
+a:hover {
+  background-color: black;
+}
+
+.banner {
+  text-align: center;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('images/ricardo-gomez-angel-5YM26lUicfU-unsplash.jpeg');
+  background-size: cover;
+  padding: 200px;
+}
+
+.banner h1 {
+  color: white;
+}
+
+.banner p {
+  color: white;
+  margin-bottom: 40px;
+}
+
+.tile {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.card {
+  position: relative;
+  background: white;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: black;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.tile a {
+  position: relative;
+  background-color: white;
+  color: white;
+  text-decoration: none;
+  padding: 0px;
+  border-radius: 4px;
+  margin-top: 0px;
+  transition: all 0.3s ease;
+  /* z-index: -1; */
+}
+
+.tile a:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  width: 350px;
+  height: 180px;
+  border-radius: 4px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.container {
+  width: 1164px;
+  margin: 0 auto;
+}
+
+.contact {
+  width: 1164px;
+  margin: 0 auto;
+  margin-top: 80px;
+  border-radius: 4px;
+  overflow: hidden;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.1);
+}
+
+.citation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @media (min-width: 300px) {
+  .tile {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+  width: 400px;
+  }
+
+@media (min-width: 1164px) {
+  .tile {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .container {
+  width: 1164px;
+  }
+} */
+:root {
+  /* Palette */
+  --white-color: #fff;
+  --black-color: #42413d;
+  --gray-color: #f6f5f1;
+  --gray-dark-color: #d6d5d2;
+  --green-color: #20ae44;
+  --red-color: #ff6124;
+  --yellow-color: #fae361;
